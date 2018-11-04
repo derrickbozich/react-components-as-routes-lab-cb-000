@@ -15,6 +15,7 @@ const App = (props) => {
     <Router>
       <React.Fragment>
         <NavBar />
+        <Route exact path='/' component={Home} />
       </React.Fragment>
     </Router>
   );
